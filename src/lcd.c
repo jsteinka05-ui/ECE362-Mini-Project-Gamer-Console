@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include "lcd.h"
+#include "lcd_spi.h"
 
 void nano_wait(int t);
 
@@ -15,9 +16,9 @@ lcd_dev_t lcddev;
 
 spi_inst_t *SPI = spi1; // Use SPI1 for the LCD
 
-#define CS_NUM    9
-#define DC_NUM    12
-#define RESET_NUM 13
+#define CS_NUM    PIN_CS
+#define DC_NUM    PIN_DC
+#define RESET_NUM PIN_nRESET
 
 #define CS_BIT  (1<<CS_NUM)
 #define RESET_BIT (1<<RESET_NUM)
