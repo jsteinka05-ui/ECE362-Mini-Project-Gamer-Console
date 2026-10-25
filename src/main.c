@@ -40,14 +40,14 @@ void init_spi_lcd() {
     gpio_put(PIN_DC, 0); // DC low
     gpio_put(PIN_nRESET, 1); // nRESET high
 
-    // initialize SPI1 with 48 MHz clock
+    // initialize SPI1 with 12 MHz clock
     gpio_set_function(PIN_SCK, GPIO_FUNC_SPI);
     gpio_set_function(PIN_SDI, GPIO_FUNC_SPI);
     spi_init(spi1, 12 * 1000 * 1000);
     spi_set_format(spi1, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
 }
 
-Picture* load_image(const char* image_data);
+Picture* load_image(const uint8_t* raw_data);
 void free_image(Picture* pic);
 
 int main() {
