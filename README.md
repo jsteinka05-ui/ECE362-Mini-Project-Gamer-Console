@@ -25,7 +25,7 @@ The project incorporates SPI, ADC, PWM, and I2C communication to support graphic
 | Adi | SPI LCD initialization, display driver, and Cup Pong graphics |
 | Brandon | ADC joystick input and controls |
 | Raghav | PWM speaker and sound effects |
-| Joey | I2C EEPROM and score storage |
+| Joey | I2C EEPROM and score storage, KiCad Schematic and PCB Creation |
 
 Each peripheral is developed separately before being integrated into the complete game.
 
