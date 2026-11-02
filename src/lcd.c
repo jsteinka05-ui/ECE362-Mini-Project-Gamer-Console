@@ -14,7 +14,7 @@ void nano_wait(int t);
 
 lcd_dev_t lcddev;
 
-spi_inst_t *SPI = spi1; // Use SPI1 for the LCD
+spi_inst_t *SPI = spi0; // Use SPI0 for the LCD
 
 #define CS_NUM    PIN_CS
 #define DC_NUM    PIN_DC
