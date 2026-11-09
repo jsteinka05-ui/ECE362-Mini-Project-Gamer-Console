@@ -18,6 +18,18 @@ The project incorporates SPI, ADC, PWM, and I2C communication to support graphic
 | Speaker | Game sound effects | PWM |
 | EEPROM | High-score storage | I2C |
 
+## Schematic and PCB
+
+### Rev 1.2 schematic
+
+[![Cup Pong carrier schematic](hardware/images/schematic.svg)](hardware/images/schematic.svg)
+
+### Rev 1.2 PCB
+
+Top view of the bare carrier board.
+
+![Top view of the Cup Pong carrier PCB](hardware/images/pcb-top.png)
+
 ## Team Responsibilities
 
 | Team Member | Responsibility |

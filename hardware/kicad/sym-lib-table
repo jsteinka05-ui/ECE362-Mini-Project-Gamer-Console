@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "joystickpth")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCADv6/joystick/joystickpth.kicad_sym")(options "")(descr "Included imported component symbol"))
+  (lib (name "2026-11-06_15-05-06")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCADv6/2026-11-06_15-05-06.kicad_sym")(options "")(descr "Included imported component symbol"))
+)
